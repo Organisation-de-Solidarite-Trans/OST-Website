@@ -1,3 +1,7 @@
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #242424;
     color: #ffffff;
@@ -46,6 +50,10 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#banner a{
+    margin-top: -120px;
 }
 
 .banner{
