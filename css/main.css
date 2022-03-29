@@ -12,6 +12,12 @@ main{
     padding-top: 60px;
 }
 
+@media (max-width: 838px){
+    main{
+        padding: 0px;
+    }
+}
+
 a{
     text-decoration: none;
     color: #ffffff;
@@ -41,9 +47,22 @@ header{
     top: 0;
 }
 
+@media (max-width: 838px){
+    header{
+        height: 0px;
+    }
+}
+
 nav{
     position: fixed;
     margin-top: 0px;
+}
+
+@media (max-width: 838px){
+    nav{
+        position: relative;
+        padding-right: 0px;
+    }
 }
 
 #banner{
@@ -67,6 +86,19 @@ nav{
     margin-top: -820px;
 }
 
+@media (max-width: 1399px){
+    .banner{
+        margin-top: 10px;
+        width: 0%;
+    }
+}
+
+@media (max-width: 838px){
+    .banner{
+        margin-top: 0px;
+    }
+}
+
 .presentation{
     width: 100%;
     max-height: 450px;
@@ -85,9 +117,31 @@ nav{
     width: 100%;
     max-width: 1980px;
     font-size: 20px;
-    padding-top: 100px;
+    padding-top: 5%;
     padding-left: 8%;
     padding-right: 15%;
+}
+
+@media (max-width: 1399px){
+    .presentation img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .presentation{
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 838px){
+    .presentation img{
+        width: 0px;
+    }
+
+    .presentation .txt{
+        padding-left: 22%;
+        padding-right: 10%;
+    }
 }
 
 /*--footer graphic parameters--*/
@@ -104,6 +158,12 @@ span{
     margin: 30px;
     font-size: 30px;
     font-weight: 500;
+}
+
+@media (max-width: 838px){
+    span{
+        margin: 15px;
+    }
 }
 /*---------------------------*/
 
@@ -129,4 +189,17 @@ span{
   
 .active {
     background-color: #003a52;
+}
+
+@media (max-width: 838px){
+    .icon-bar{
+        flex-direction: column;
+        width: fit-content;
+        background-color: #0c0c0cf5;
+    }
+
+    .icon-bar a{
+        padding: 10px;
+        font-size: 12px;
+    }
 }
