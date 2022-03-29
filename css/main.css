@@ -148,7 +148,7 @@ nav{
     }
 
     .presentation .txt{
-        padding-left: 22%;
+        padding-left: 12%;
         padding-right: 8%;
         padding-top: 6%;
         font-size: 18px;
@@ -211,14 +211,12 @@ span{
 
 @media (max-width: 838px){
     .icon-bar{
-        flex-direction: column;
-        width: fit-content;
         background-color: #0c0c0cf5;
     }
 
     .icon-bar a{
-        padding: 6px 4px 6px 6px;
-        font-size: 12px;
+        padding: 6px 8px;
+        font-size: 14px;
         text-align: left;
     }
 }
