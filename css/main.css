@@ -49,7 +49,7 @@ header{
 
 @media (max-width: 838px){
     header{
-        height: 0px;
+        height: 10px;
     }
 }
 
@@ -88,14 +88,19 @@ nav{
 
 @media (max-width: 1399px){
     .banner{
-        margin-top: 10px;
-        width: 0%;
+        margin-top: 0px;
+        height: 300px;
+    }
+
+    .logo-banner{
+        height: 220px;
+        margin-top: -140px;
     }
 }
 
 @media (max-width: 838px){
     .banner{
-        margin-top: 0px;
+        margin-top: 10px;
     }
 }
 
@@ -131,6 +136,10 @@ nav{
     .presentation{
         max-height: 300px;
     }
+
+    .presentation .txt{
+        padding-top: 2%;
+    }
 }
 
 @media (max-width: 838px){
@@ -140,7 +149,7 @@ nav{
 
     .presentation .txt{
         padding-left: 22%;
-        padding-right: 10%;
+        padding-right: 8%;
     }
 }
 
@@ -199,7 +208,7 @@ span{
     }
 
     .icon-bar a{
-        padding: 10px;
+        padding: 6px 4px;
         font-size: 12px;
     }
 }
