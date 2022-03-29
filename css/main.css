@@ -150,6 +150,8 @@ nav{
     .presentation .txt{
         padding-left: 22%;
         padding-right: 8%;
+        padding-top: 6%;
+        font-size: 18px;
     }
 }
 
@@ -161,6 +163,13 @@ nav{
     display: flex;
     justify-content: center;
     padding-top: 80px;
+}
+
+@media (max-width: 868px){
+    .footer{
+        height: 80px;
+        padding-top: 30px;
+    }
 }
 
 span{
@@ -208,7 +217,8 @@ span{
     }
 
     .icon-bar a{
-        padding: 6px 4px;
+        padding: 6px 4px 6px 6px;
         font-size: 12px;
+        text-align: left;
     }
 }
