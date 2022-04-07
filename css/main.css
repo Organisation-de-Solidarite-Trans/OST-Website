@@ -204,18 +204,17 @@ nav{
 /*--footer graphic parameters--*/
 .footer {
     background: linear-gradient( 45deg, #000000, transparent ), linear-gradient( 45deg, #000000, transparent ), linear-gradient( -45deg, #000000, transparent );
-    height: 120px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 80px;
 }
 
-@media (max-width: 868px){
-    .footer{
-        height: 80px;
-        padding-top: 30px;
-    }
+.footer img{
+    width: 40px;
+    height: 15px;
+    margin-bottom: -3px;
 }
 
 span{
@@ -239,6 +238,7 @@ span{
     padding-left: 2%;
     padding-bottom: 1%;
     text-align: left;
+    font-size: 14px;
 }
 
 .foot-right{
@@ -250,6 +250,7 @@ span{
     padding-right: 2%;
     padding-bottom: 1%;
     text-align: right;
+    font-size: 14px;
 }
 
 .foot-right p, .foot-left p{
@@ -263,14 +264,9 @@ span{
 
 @media (max-width: 739px){
     .footer{
-        height: 120px;
+        height: 250px;   
     }
-
-    .footer{
-        height: 200px;
-       
-    }
-
+    
     .foot-left{
         float: right;
         margin-bottom: 75px;
